@@ -205,6 +205,7 @@ function sendData(evt,methodName){
     }
 }
 
+//metodo que obtiene la letra
 function mostrarLetra(json){
     console.log(json.letra);
     document.getElementById("letra").value = json.letra;
